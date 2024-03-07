@@ -347,7 +347,7 @@ def get_all_entities():
     pickle_directory = os.path.join(current_directory, "offloaded_data")
     os.makedirs(pickle_directory, exist_ok=True)
 
-    wf_path = os.path.join(pickle_directory, "all_worfkflows_df.pkl")
+    wf_path = os.path.join(pickle_directory, "all_workflows_df.pkl")
     if os.path.exists(wf_path):
         os.remove(wf_path)
     all_worfkflows_df.to_pickle(wf_path)
