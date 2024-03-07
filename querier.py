@@ -299,6 +299,8 @@ def get_launchplan_versions(launchplan_names_df: pd.DataFrame):
 def get_all_entities():
     all_projects_df = get_projects()
 
+    # all_projects_df = all_projects_df[:3]
+
     # # testing
     # all_projects_df = all_projects_df[all_projects_df["id"] == "flytesnacks"].reset_index(drop=True)
 
@@ -346,13 +348,19 @@ def get_all_entities():
     os.makedirs(pickle_directory, exist_ok=True)
 
     wf_path = os.path.join(pickle_directory, "all_worfkflows_df.pkl")
-    all_worfkflows_df.to_pickle(wf_path, overwrite=True)
+    if os.path.exists(wf_path):
+        os.remove(wf_path)
+    all_worfkflows_df.to_pickle(wf_path)
 
     task_path = os.path.join(pickle_directory, "all_tasks_df.pkl")
-    all_tasks_df.to_pickle(task_path, overwrite=True)
+    if os.path.exists(task_path):
+        os.remove(task_path)
+    all_tasks_df.to_pickle(task_path)
 
     lp_path = os.path.join(pickle_directory, "all_launchplans_df.pkl")
-    all_launchplans_df.to_pickle(lp_path, overwrite=True)
+    if os.path.exists(lp_path):
+        os.remove(lp_path)
+    all_launchplans_df.to_pickle(lp_path)
 
 
     return all_worfkflows_df, all_tasks_df, all_launchplans_df
