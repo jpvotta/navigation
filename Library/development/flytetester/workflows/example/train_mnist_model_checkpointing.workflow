@@ -1,0 +1,1 @@
+workflow name: workflows.example.train_mnist_model_checkpointing

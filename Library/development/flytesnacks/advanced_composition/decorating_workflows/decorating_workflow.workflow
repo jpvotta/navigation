@@ -1,0 +1,1 @@
+workflow name: advanced_composition.decorating_workflows.decorating_workflow

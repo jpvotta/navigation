@@ -1,0 +1,1 @@
+workflow name: workflows.gpu_accelerator_tests.no_gpu_accelerator_wf

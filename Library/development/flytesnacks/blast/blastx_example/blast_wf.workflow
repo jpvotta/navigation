@@ -1,0 +1,1 @@
+workflow name: blast.blastx_example.blast_wf

@@ -1,0 +1,1 @@
+workflow name: workflows.mnist_training_example1.mnist_workflow_cpu

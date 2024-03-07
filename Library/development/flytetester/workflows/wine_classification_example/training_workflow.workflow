@@ -1,0 +1,1 @@
+workflow name: workflows.wine_classification_example.training_workflow

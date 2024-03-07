@@ -1,0 +1,1 @@
+workflow name: docai.generate.generate_cloud

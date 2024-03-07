@@ -1,0 +1,1 @@
+workflow name: mnist_classifier.pytorch_single_node_and_gpu.pytorch_training_wf

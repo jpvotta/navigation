@@ -1,0 +1,1 @@
+workflow name: aws_batch_plugin.batch.my_wf

@@ -1,0 +1,1 @@
+workflow name: advanced_composition.map_task.multiple_inputs_map_workflow

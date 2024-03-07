@@ -1,0 +1,1 @@
+workflow name: workflows.test_workflow.my_map_workflow

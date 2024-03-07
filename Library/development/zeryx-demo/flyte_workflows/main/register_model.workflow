@@ -1,0 +1,1 @@
+workflow name: flyte_workflows.main.register_model

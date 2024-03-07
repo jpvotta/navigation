@@ -1,0 +1,1 @@
+workflow name: advanced_composition.dynamic_workflow.dynamic_wf

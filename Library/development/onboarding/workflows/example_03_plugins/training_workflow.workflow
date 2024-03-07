@@ -1,0 +1,1 @@
+workflow name: workflows.example_03_plugins.training_workflow

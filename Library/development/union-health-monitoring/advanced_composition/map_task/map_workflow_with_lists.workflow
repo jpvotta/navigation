@@ -1,0 +1,1 @@
+workflow name: advanced_composition.map_task.map_workflow_with_lists

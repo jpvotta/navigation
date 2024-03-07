@@ -1,0 +1,1 @@
+workflow name: basics.named_outputs.simple_wf_with_named_outputs
